@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 18px;
+    background-color: #F4F4F4;
+}
+.moDau {
+    background-color: #3598DB;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    width: 300px;
+    height: 460px;
+    text-align: center;
+}
+.card .h {
+    color: #3B93D1;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.card img {
+    border-radius: 6px;
+    margin-top: 4px;
+}
+footer {
+    margin-top: 20px;
+    color: #888;
+    text-align: center;
+}
