@@ -1,0 +1,106 @@
+body {
+    padding: 8px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EFEFEF;
+    width: 100%
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    padding: 20px 8px;
+}
+.menu p.doiMau {
+    color: #F58911;
+}
+.right {
+    display: flex;
+    align-items: center;
+    padding: 20px 8px;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.phone p {
+    margin: 0;
+}
+.login {
+    margin-right: 10px;
+}
+.Header div {
+    cursor: pointer;
+}
+.phone:hover {
+    color: #ff6600;
+}
+.login:hover {
+    color: #ff6600;
+}
+.cart:hover {
+    color: #ff6600;
+}
+.select {
+    margin-top: 10px;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 2px;
+}
+.choose-dish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+}
+.choose{
+    text-align: center;
+}
+.choose p {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: small;
+}
+.choose img {
+    height: 160px;
+    width: 160px;
+}
+.add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.add1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add img {
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 250px;
+    width: 270px;
+}
+.add1 p {
+    margin: 5px;
+    text-align: center;
+}
+.button {
+    background-color: #F58911;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+}
+
+
+
